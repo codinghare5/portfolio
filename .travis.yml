@@ -9,8 +9,8 @@ deploy:
   local-dir: _site
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure. Create token at (GitHub Profile)-Settings>Developer Settings>Personal Access
+  github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure. Create token at (GitHub Profile)-Settings>Developer Settings>Personal Access
   keep-history: true
   target_branch: gh-pages # if running as a user profile page, change this to "master"
   on:
-    branch: dev
+    branch: main
